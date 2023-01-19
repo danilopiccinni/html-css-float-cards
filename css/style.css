@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
-    padding: 3% 8%;
+    padding: 3% 7%;
     text-align: center;
 }
 
@@ -36,6 +36,10 @@ div.card {
   
     text-align: left;
     background-color: black;
+    
+    float: left;
+
+    margin: 1em 2em 1em 0em;
 }
 
 ul {
