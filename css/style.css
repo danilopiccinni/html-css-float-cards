@@ -6,12 +6,57 @@
 
 body {
     font-family: 'Fredoka', sans-serif;
+    padding: 3% 8%;
+    text-align: center;
+}
 
+
+/* header */
+header,h1 {
+    margin-bottom: 3%;
 }
 
 h1 {
     color: #e53170;
-    text-align: center;
-    padding: 5%;    
 }
+/* /header */
+
+
+
+/* Struttura base delle cards */
+img {
+    float: left;
+    width:28%;
+    height: 100%;
+}
+
+div.card {
+    width: 400px;
+    height: 110px;
+  
+    text-align: left;
+    background-color: black;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    padding-inline-start: 0;
+    object-fit: cover;
+    padding-left: 1em;
+}
+
+li {
+    color: white;
+    padding: .3em;
+}
+
+ul :nth-child(3) {
+    color: #8bb4f7;
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+/*  /Struttura base delle cards */
+
+
 
