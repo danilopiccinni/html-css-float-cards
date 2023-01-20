@@ -28,6 +28,7 @@ img {
     float: left;
     width:28%;
     height: 100%;
+    
 }
 
 div.card {
@@ -36,7 +37,7 @@ div.card {
   
     text-align: left;
     background-color: black;
-    
+
     float: left;
 
     margin: 1em 2em 1em 0em;
@@ -48,6 +49,13 @@ ul {
     padding-inline-start: 0;
     object-fit: cover;
     padding-left: 1em;
+    clear: ;
+}
+
+.clearfix ::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 li {
